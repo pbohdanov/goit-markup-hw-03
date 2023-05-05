@@ -1,0 +1,216 @@
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: ;
+  --logo-colour: #4d5ae5;
+  --logo-right-part: #2e2f42;
+  --nav-list-color: #2e2f42;
+  --color-nav-list-hover: #404bbf;
+  --color-nav-list-focus: #404bbf;
+  --color-address-nav-link: #434455;
+  --color-address-nav-link-hover: #404bbf;
+  --color-address-nav-link-focus: #404bbf;
+  --background-color: #ffffff;
+  --background-color-hero: #2e2f42;
+  --title-color: #2e2f42;
+  --button-background-color: #f4f4fd;
+  --button-text-color: #4d5ae5;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--color-address-nav-link);
+  background-color: var(--background-color);
+}
+
+/* Header */
+
+/* Logo */
+.logo {
+  color: var(--logo-colour);
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.logo-right-part {
+  color: var(--logo-right-part);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.nav-list {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--nav-list-color);
+}
+
+.nav-list:hover {
+  color: var(--color-nav-list-hover);
+}
+
+.nav-list:focus {
+  color: var(--color-nav-list-focus);
+}
+
+/* Address navigation section */
+
+.address-nav-list {
+  font-style: normal;
+}
+.address-nav-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-address-nav-link);
+}
+
+.address-nav-link:hover {
+  color: var(--color-address-nav-link-hover);
+}
+
+.address-nav-link:focus {
+  color: var(--color-address-nav-link-focus);
+}
+
+/* Main content */
+/* Hero section */
+.hero-section {
+  background-color: var(--background-color-hero);
+}
+.main-title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.button {
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #404bbf;
+}
+.button:focus {
+  background-color: #404bbf;
+}
+
+/* Section 1 */
+
+.feature-list {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
+}
+
+.feature-list-desc {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* Section 2 */
+.what-are-we-doing {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--title-color);
+}
+
+/* Section 3  - Our Team */
+.section-team-list {
+  background-color: #f4f4fd;
+}
+.section-header-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--title-color);
+}
+.team-list-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
+}
+
+.team-list {
+  background-color: #ffffff;
+}
+.team-list-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* Footer */
+.footer {
+  background-color: var(--background-color-hero);
+}
+.footer-logo-right-part {
+  color: var(--button-background-color);
+}
+.footer-text {
+  color: var(--button-background-color);
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+
+/* Portfolio */
+
+.portfolio-button {
+  background-color: var(--button-background-color);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--button-text-color);
+  cursor: pointer;
+}
+.portfolio-button:hover {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+.portfolio-button:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+
+.project-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--background-color-hero);
+}
+
+.project-desc {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-address-nav-link);
+}

@@ -24,19 +24,18 @@ body {
 
 .container {
   width: 1158px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
 }
 /*========== Header ========== */
 
 .page-header {
-  display: flex;
+  border-bottom: 1px solid #e7e9fc;
 }
-.menu-nav {
+
+.header-container {
   display: flex;
-  align-items: center;
 }
 
 /* Logo */
@@ -48,15 +47,24 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 .logo-right-part {
   color: var(--logo-right-part);
 }
 
 /* Navigation list */
+
 .menu {
   display: flex;
+  gap: 40px;
 }
+
+.menu-nav {
+  display: flex;
+  align-items: center;
+}
+
 .link {
   text-decoration: none;
 }
@@ -66,6 +74,7 @@ body {
 }
 
 .nav-list {
+  padding: 24px 0;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -83,12 +92,15 @@ body {
 
 /* Address navigation section */
 
-.address-menu {
-  display: flex;
-}
 .address-nav-list {
   font-style: normal;
 }
+
+.address-menu {
+  display: flex;
+  gap: 40px;
+}
+
 .address-nav-link {
   font-size: 16px;
   line-height: 1.5;

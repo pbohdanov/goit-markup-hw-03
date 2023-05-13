@@ -14,6 +14,7 @@
   --title-color: #2e2f42;
   --button-background-color: #f4f4fd;
   --button-text-color: #4d5ae5;
+  --portfolio-button-boader-color: #e7e9fc;
 }
 
 body {
@@ -216,7 +217,7 @@ img {
   padding-left: 0;
 }
 
-.work-example-list-text-width {
+.work-example-list-width {
   width: calc((100% - 48px) / 3);
 }
 
@@ -226,6 +227,9 @@ img {
   gap: 24px;
 }
 
+.team-list-width {
+  width: calc((100% - 72px) / 4);
+}
 .section-team-list {
   background-color: #f4f4fd;
   padding: 120px 0;
@@ -249,9 +253,6 @@ img {
   color: var(--title-color);
 }
 
-.team-list-text-width {
-  width: calc((100% - 72px) / 4);
-}
 .team-list {
   background-color: #ffffff;
 
@@ -319,14 +320,19 @@ img {
   letter-spacing: 0.04em;
   color: var(--button-text-color);
   cursor: pointer;
+  padding: 12px 24px;
+  border: 1px solid var(--portfolio-button-boader-color);
+  border-radius: 4px;
 }
 .portfolio-button:hover {
   color: #ffffff;
   background-color: #404bbf;
+  border: 1px solid transparent;
 }
 .portfolio-button:focus {
   color: #ffffff;
   background-color: #404bbf;
+  border: 1px solid transparent;
 }
 
 .project-title {

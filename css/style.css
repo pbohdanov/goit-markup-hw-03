@@ -287,6 +287,26 @@ img {
 
 /* Portfolio */
 
+.list-btn {
+  display: flex;
+  margin-bottom: 72px;
+  justify-content: center;
+  gap: 24px;
+  padding-left: 0;
+  margin-top: 0;
+}
+.main-section {
+  padding: 96px 0 120px;
+}
+
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  padding-left: 0;
+  row-gap: 48px;
+}
+
 .portfolio-button {
   background-color: var(--button-background-color);
   font-family: "Roboto", sans-serif;

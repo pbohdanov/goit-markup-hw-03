@@ -335,6 +335,14 @@ img {
   border: 1px solid transparent;
 }
 
+.portfolio-project-card-container {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
+}
+.portfolio-project-card {
+}
 .project-title {
   font-weight: 500;
   font-size: 20px;

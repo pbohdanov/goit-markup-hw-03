@@ -174,7 +174,6 @@ body {
 }
 
 .feature-list {
-  width: calc((100% - 72px) / 4);
   margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
@@ -186,6 +185,10 @@ body {
 .feature-list-desc {
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.future-list-text {
+  width: calc((100% - 72px) / 4);
 }
 
 /* Section 2 */
@@ -214,6 +217,10 @@ body {
 .team {
   display: flex;
   gap: 24px;
+}
+
+.img {
+  display: block;
 }
 .section-team-list {
   background-color: #f4f4fd;

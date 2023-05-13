@@ -227,9 +227,6 @@ img {
   gap: 24px;
 }
 
-.team-list-width {
-  width: calc((100% - 72px) / 4);
-}
 .section-team-list {
   background-color: #f4f4fd;
   padding: 120px 0;
@@ -255,7 +252,7 @@ img {
 
 .team-list {
   background-color: #ffffff;
-
+  width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -349,6 +346,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--background-color-hero);
+  margin-bottom: 8px;
 }
 
 .project-desc {

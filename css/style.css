@@ -195,12 +195,13 @@ img {
   width: calc((100% - 48px) / 3);
 }
 
-/* Section 2 */
+/* Section 2  What we are doing*/
 .work-examples {
   padding-bottom: 120px;
 }
 .what-are-we-doing {
   margin-bottom: 72px;
+  margin-top: 0;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -211,6 +212,8 @@ img {
 .work-examples-list {
   display: flex;
   gap: 24px;
+  margin-top: 0;
+  padding-left: 0;
 }
 
 .work-example-list-text-width {

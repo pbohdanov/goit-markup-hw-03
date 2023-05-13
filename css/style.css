@@ -167,6 +167,10 @@ body {
 
 .features-list {
   display: flex;
+  padding: 0;
+  gap: 24px;
+  justify-content: center;
+  margin: auto;
 }
 
 .feature-list {
